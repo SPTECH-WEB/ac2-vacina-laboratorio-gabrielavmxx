@@ -5,6 +5,7 @@ import java.time.LocalDate;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Você pode usar essa classe para testar o seu código se precisar.");
+        System.out.println("TESTES NÃO ESTÃO FUNCIONANDO!!!!");
 
         Vacina vacina1 = new Vacina("ABC","Febre Amarela", "A", 29.99, 2.0, LocalDate.of(2025,10,2));
         Vacina vacina2 = new Vacina("DFG","Gripe", "B", 15.99, 4.9, LocalDate.of(2025,9,1));

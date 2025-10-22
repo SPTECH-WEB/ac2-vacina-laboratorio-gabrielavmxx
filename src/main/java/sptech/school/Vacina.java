@@ -90,6 +90,7 @@ public class Vacina {
                 ", preco=" + preco +
                 ", eficacia=" + eficacia +
                 ", dataLancamento=" + dataLancamento +
+                ", qualidade=" + getEficaciaDescricao() +
                 '}';
     }
 }
